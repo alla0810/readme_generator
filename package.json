@@ -1,0 +1,15 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "description": "* Author: Kyosook Shin\r   * Author's Email: kyosook.shin@gmail.com\r   * Deployed URL: https://alla0810.github.io/weatherDashboard/\r   * GitHub: https://github.com/alla0810/weatherDashboard\r   * screenshot\r ![screen1](./assets/images/screen1.png)",
+  "keywords": []
+}
