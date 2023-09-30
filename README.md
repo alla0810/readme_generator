@@ -3,9 +3,14 @@
   * Author: Kyosook Shin
   * Author's Email: kyosook.shin@gmail.com  
   * GitHub: https://github.com/alla0810/readme_generator
+  * Walkthrough Video
+    https://drive.google.com/file/d/11Jq09KdMogAlfzqCMzKKjAHJSA6fbtv5/view
+
   * screenshot
 ![screen1](./images/screen1.png)
 ![screen2](./images/screen2.png)
+
+
 
 ## Source Code References
   This project has used some reference codes from the following sites
