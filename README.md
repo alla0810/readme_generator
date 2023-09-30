@@ -1,7 +1,5 @@
 # readme_generator
 
-[Deliverable](#deliverables-20)
-
   * Author: Kyosook Shin
   * Author's Email: kyosook.shin@gmail.com  
   * GitHub: https://github.com/alla0810/readme_generator
