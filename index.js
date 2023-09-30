@@ -10,10 +10,10 @@ const questions = [];
 function writeToFile(fileName, response) {
     let readmefileBuffer = "";
 
-    console.log(response.title);
+//    console.log(response.title);
 
     let title = genMD.generateTitle(response);
-    title += '\n';    
+    title += '    ';    
     title += genMD.generateLicenseBadge(response);
     title += '\n';    
     readmefileBuffer += title;
@@ -101,12 +101,13 @@ function inquireHandler() {
 
     ])
     .then((response) =>{
-        console.log(response);
+//        console.log(response);
         writeToFile('./output/README.md', response);
   });
       
 }
 
+// empty README.md
 function init()
 {
     fs.writeFile('./output/README.md', '', (err) =>

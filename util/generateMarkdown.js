@@ -45,25 +45,25 @@ function getLicenseLink(data) {
       link = 'https://opensource.org/licenses/Apache-2.0';
       break;
     case 'BSD 3-Clause':
-      link = '![BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause)';
+      link = 'https://opensource.org/licenses/BSD-3-Clause';
       break;
     case 'BSD 2-Clause':
-      link = '![BSD 2-Clause](https://opensource.org/licenses/BSD-2-Clause)';
+      link = 'https://opensource.org/licenses/BSD-2-Clause';
       break;
     case 'GNU GPL v3':
-      link = '![GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)';
+      link = 'https://www.gnu.org/licenses/gpl-3.0';
       break;
     case 'GNU GPL v2':
-      link = '![GNU GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)';
+      link = 'https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html';
       break;
     case 'MIT':
-      link = '![MIT](https://opensource.org/licenses/MIT)';
+      link = 'https://opensource.org/licenses/MIT';
       break;
     case 'Mozilla Public License 2.0':
-      link = '![Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)';
+      link = 'https://opensource.org/licenses/MPL-2.0';
       break;
     case 'IBM Public License Version 1.0':
-      link = '![IBM Public License Version 1.0](https://opensource.org/licenses/IPL-1.0)';
+      link = 'https://opensource.org/licenses/IPL-1.0';
       break;      
   }
 
@@ -121,8 +121,8 @@ function generateTest(data) {
 
 function generateQuestion(data) {
   let question = '## Questions\n';
-  question += `${data.gitUser}`;
-  question += `(https://github.com/${data.gitUser})`;
+  question += `${data.gitUser} `;
+  question += `(https://github.com/${data.gitUser})  `;
   question += '\n';
   question += `Please reach out to ${data.email} if you have any question.`
   return question;
